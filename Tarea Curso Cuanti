@@ -50,24 +50,20 @@ table(base_86$sexo)
 ### Variable : Región
 table(base_86$region)
 
-### Variable : Estrato
-table(base_86$estrato)
-
 ### Variable : Escolaridad Nivel
 table(base_86$esc_nivel_1)
 
-### Variable : Problemas que tiene el País 1
+### Variable : Percepción de problemas con importancia en el País primera preferencia
 table(base_86$percepcion_1_a)
 
-### Variable : Problemas que tiene el País 2
+### Variable : Percepción de problemas con importancia en el País segunda preferencia
 table(base_86$percepcion_1_b)
 
-### Variable : Problemas que tiene el País 3
+### Variable : Percepción de problemas con importancia en el País tercera preferencia
 table(base_86$percepcion_1_c)
 
-### Variable : Actual situación economica
+### Variable : Identificación de la Actual situación economica personal
 table(base_86$percepcion_5)
 
-
-### Variable : Educación
+### Variable : Nivel de Educación alcanzado por la persona
 table(base_86$educacion_104_a)
