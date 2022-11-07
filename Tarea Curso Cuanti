@@ -67,3 +67,7 @@ table(base_86$percepcion_1_c)
 
 ### Variable : Actual situación economica
 table(base_86$percepcion_5)
+
+
+### Variable : Educación
+table(base_86$educacion_104_a)
