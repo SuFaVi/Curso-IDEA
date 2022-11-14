@@ -67,3 +67,55 @@ table(base_86$percepcion_5)
 
 ### Variable : Nivel de Educación alcanzado por la persona
 table(base_86$educacion_104_a)
+
+sjt.xtab(base_86$percepcion_1_a,
+         base_86$sexo, #columnas
+         file = "sexo_a.doc")
+
+sjt.xtab(base_86$percepcion_1_a,
+         base_86$educacion_104_a, #columnas
+         file = "educ_a.doc")
+
+sjt.xtab(base_86$percepcion_1_a,
+         base_86$region, #columnas
+         file = "reg_a.doc")
+
+sjt.xtab(base_86$percepcion_1_a,
+         base_86$percepcion_5, #columnas
+         file = "socioec_a.doc")
+
+#################
+
+sjt.xtab(base_86$percepcion_1_b,
+         base_86$sexo, #columnas
+         file = "sexo_b.doc")
+
+sjt.xtab(base_86$percepcion_1_b,
+         base_86$educacion_104_a, #columnas
+         file = "educ_b.doc")
+
+sjt.xtab(base_86$percepcion_1_b,
+         base_86$region, #columnas
+         file = "reg_b.doc")
+
+sjt.xtab(base_86$percepcion_1_b,
+         base_86$percepcion_5, #columnas
+         file = "socioec_b.doc")
+
+#################
+
+sjt.xtab(base_86$percepcion_1_c,
+         base_86$sexo, #columnas
+         file = "sexo_c.doc")
+
+sjt.xtab(base_86$percepcion_1_c,
+         base_86$educacion_104_a, #columnas
+         file = "educ_c.doc")
+
+sjt.xtab(base_86$percepcion_1_c,
+         base_86$region, #columnas
+         file = "reg_c.doc")
+
+sjt.xtab(base_86$percepcion_1_c,
+         base_86$percepcion_5, #columnas
+         file = "socioec_c.doc")
